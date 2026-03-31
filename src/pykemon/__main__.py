@@ -8,7 +8,7 @@ Usage:
 
 import sys
 
-from .socket_battle import DEFAULT_PORT, run_client, run_host
+from .battle import DEFAULT_PORT, run_client, run_host
 
 
 def main() -> None:

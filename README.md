@@ -1,6 +1,5 @@
 # 🔴 pykemon
 
-[![PyPI version](https://badge.fury.io/py/pykemon.svg)](https://badge.fury.io/py/pykemon)
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Docs](https://img.shields.io/badge/docs-mkdocs-green)](https://byuirpytooling.github.io/pykemon)
@@ -11,8 +10,14 @@ A Python package that gives data science students easy access to a rich Pokémon
 
 ## 📦 Installation
 
+**pip:**
 ```bash
-pip install pykemon
+pip install git+https://github.com/byuirpytooling/pykemon.git
+```
+
+**uv:**
+```bash
+uv add git+https://github.com/byuirpytooling/pykemon.git
 ```
 
 ---

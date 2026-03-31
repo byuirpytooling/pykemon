@@ -27,7 +27,7 @@ def _clear() -> None:
 
 
 def _render_full_state(state: dict) -> None:
-    _clear()
+    print("\n" + "=" * 60)
     turn = state["turn"]
     you  = state["your_trainer"]
     opp  = state["opponent_trainer"]
@@ -87,7 +87,7 @@ def _render_full_state(state: dict) -> None:
 
 
 def _render_force_switch(state: dict, available: list[int]) -> None:
-    _clear()
+    print("\n" + "=" * 60)
     print("  ── FORCE SWITCH ────────────────────────────────")
     print("  Your Pokemon fainted! Choose a replacement.\n")
     roster = state["your_roster"]
